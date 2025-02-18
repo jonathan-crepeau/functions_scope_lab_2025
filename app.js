@@ -47,3 +47,17 @@
 // function calculateSide(sideA, sideB) {
 //   return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 // }
+
+
+
+// SECTION - Section 5:
+
+// Write a function sumArray that takes an array as an argument. The array should contain numbers. The function should return the sum of the numbers in the array. Do not use .reduce().
+
+// function sumArray(inputArray) {
+//   let sumOfNums = 0;
+//   for (let i = 0; i < inputArray.length; i++) {
+//     sumOfNums += inputArray[i];
+//   }
+//   return sumOfNums;
+// }
