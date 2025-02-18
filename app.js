@@ -90,3 +90,20 @@
 // }
 
 // console.log(printPrimes(100));
+
+
+
+// SECTION - Section 7:
+
+// Write a function insertDash that accepts a number as a parameter and returns a string with a dash inserted between any consecutive odd numbers. There should not be a dash at the end, it goes only between numbers.
+
+function insertDash(inputNum) {
+  let numString = inputNum.toString().split('');
+  let finalString = [];
+  for (let i = 0; i < numString.length; i++) {
+    if (numString[i] % 2 !== 0) finalString.push(numString[i] + '-')
+    else finalString.push(numString[i]);
+  }
+  return finalString.join('');
+}
+
