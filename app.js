@@ -97,13 +97,26 @@
 
 // Write a function insertDash that accepts a number as a parameter and returns a string with a dash inserted between any consecutive odd numbers. There should not be a dash at the end, it goes only between numbers.
 
-function insertDash(inputNum) {
-  let numString = inputNum.toString().split('');
-  let finalString = [];
-  for (let i = 0; i < numString.length; i++) {
-    if (numString[i] % 2 !== 0) finalString.push(numString[i] + '-')
-    else finalString.push(numString[i]);
-  }
-  return finalString.join('');
-}
+// function insertDash(inputNum) {
+//   let numString = inputNum.toString().split('');
+//   let finalString = [];
+//   for (let i = 0; i < numString.length; i++) {
+//     if (numString[i] % 2 !== 0) finalString.push(numString[i] + '-')
+//     else finalString.push(numString[i]);
+//   }
+//   return finalString.join('');
+// }
 
+
+
+// SECTION - Section 8:
+
+// Write a function reverseString that takes a string as a parameter and returns that string with the letters reversed without using .split(), .reverse(), or .join().
+
+// function reverseString(inputString) {
+//   let reversedString= '';
+//   for (let i = inputString.length - 1; i >= 0; i--) {
+//     reversedString += inputString[i];
+//   }
+//   return reversedString;
+// }
