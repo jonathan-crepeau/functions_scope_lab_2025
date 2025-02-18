@@ -24,3 +24,17 @@
 //   return false;
 // }
 
+
+
+// SECTION - Section 3:
+// Write a function sumDigits that accepts a number and returns the sum of its digits.
+
+// function sumDigits(inputNum) {
+//   let numString = inputNum.toString().split('');
+//   let sumOfNums = 0;
+//   for (let i = 0; i < numString.length; i++) {
+//     sumOfNums += Number(numString[i]);
+//   }
+//   return sumOfNums;
+// }
+
