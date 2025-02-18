@@ -38,3 +38,12 @@
 //   return sumOfNums;
 // }
 
+
+
+// SECTION - Section 4:
+
+// Write a function calculateSide that takes two arguments: sideA and sideB, and returns the solution for sideC using the Pythagorean theorem.
+
+// function calculateSide(sideA, sideB) {
+//   return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// }
