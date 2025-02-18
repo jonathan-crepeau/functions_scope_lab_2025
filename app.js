@@ -61,3 +61,32 @@
 //   }
 //   return sumOfNums;
 // }
+
+
+
+// SECTION - Section 6:
+
+// Write a function called checkPrime that will test whether a number is Prime. The function will return true (Boolean) if Prime, false if not. Hint: Check every number up to the square root. To do this, try a for loop.
+
+// function checkPrime(inputNum) {
+//   if (inputNum <= 1) return false;
+//   if (inputNum === 2) return true;
+//   let theSqrt = Math.sqrt(inputNum);
+//   for (let i = 2; i <= theSqrt; i++) {
+//     if (inputNum % i === 0) return false;
+//   }
+//   return true;
+// }
+
+
+// Write another function called printPrimes that will print (console log) all the Primes up to an arbitrary limit. For example, if you invoke your function with printPrimes(97), it will print all the Prime numbers up to and including 97. This function can call on the previous checkPrime function.
+
+// function printPrimes(inputNum) {
+//   let primeNumArray = [];
+//   for (let i = 0; i < inputNum; i++) {
+//     if (checkPrime(i)) primeNumArray.push(i)
+//   }
+//   return primeNumArray;
+// }
+
+// console.log(printPrimes(100));
